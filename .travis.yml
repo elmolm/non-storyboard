@@ -1,3 +1,5 @@
 os: osx
 osx_image: xcode9.4
 language: swift
+xcode_project: NonStoryboardApp.xcodeproj 
+xcode_scheme: NonStoryboardAppUITests 

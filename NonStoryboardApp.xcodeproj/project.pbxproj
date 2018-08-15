@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		557A7A20212416A800CE1CD9 /* NonStoryboardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A7A1F212416A800CE1CD9 /* NonStoryboardAppUITests.swift */; };
 		558A62152007C8B7000E0707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A62142007C8B7000E0707 /* AppDelegate.swift */; };
 		558A62172007C8B7000E0707 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A62162007C8B7000E0707 /* ViewController.swift */; };
 		558A621C2007C8B7000E0707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558A621B2007C8B7000E0707 /* Assets.xcassets */; };
 		558A621F2007C8B7000E0707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558A621D2007C8B7000E0707 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		557A7A22212416A800CE1CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 558A62092007C8B7000E0707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558A62102007C8B7000E0707;
+			remoteInfo = NonStoryboardApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		557A7A1D212416A800CE1CD9 /* NonStoryboardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NonStoryboardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		557A7A1F212416A800CE1CD9 /* NonStoryboardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonStoryboardAppUITests.swift; sourceTree = "<group>"; };
+		557A7A21212416A800CE1CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558A62112007C8B7000E0707 /* NonStoryboardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NonStoryboardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558A62142007C8B7000E0707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558A62162007C8B7000E0707 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +37,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		557A7A1A212416A800CE1CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		558A620E2007C8B7000E0707 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +54,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		557A7A1E212416A800CE1CD9 /* NonStoryboardAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				557A7A1F212416A800CE1CD9 /* NonStoryboardAppUITests.swift */,
+				557A7A21212416A800CE1CD9 /* Info.plist */,
+			);
+			path = NonStoryboardAppUITests;
+			sourceTree = "<group>";
+		};
 		558A62082007C8B7000E0707 = {
 			isa = PBXGroup;
 			children = (
 				558A62132007C8B7000E0707 /* NonStoryboardApp */,
+				557A7A1E212416A800CE1CD9 /* NonStoryboardAppUITests */,
 				558A62122007C8B7000E0707 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				558A62112007C8B7000E0707 /* NonStoryboardApp.app */,
+				557A7A1D212416A800CE1CD9 /* NonStoryboardAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +96,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		557A7A1C212416A800CE1CD9 /* NonStoryboardAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557A7A26212416A800CE1CD9 /* Build configuration list for PBXNativeTarget "NonStoryboardAppUITests" */;
+			buildPhases = (
+				557A7A19212416A800CE1CD9 /* Sources */,
+				557A7A1A212416A800CE1CD9 /* Frameworks */,
+				557A7A1B212416A800CE1CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557A7A23212416A800CE1CD9 /* PBXTargetDependency */,
+			);
+			name = NonStoryboardAppUITests;
+			productName = NonStoryboardAppUITests;
+			productReference = 557A7A1D212416A800CE1CD9 /* NonStoryboardAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		558A62102007C8B7000E0707 /* NonStoryboardApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 558A62232007C8B7000E0707 /* Build configuration list for PBXNativeTarget "NonStoryboardApp" */;
@@ -87,10 +137,15 @@
 		558A62092007C8B7000E0707 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = elmland.blog;
 				TargetAttributes = {
+					557A7A1C212416A800CE1CD9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 558A62102007C8B7000E0707;
+					};
 					558A62102007C8B7000E0707 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -111,11 +166,19 @@
 			projectRoot = "";
 			targets = (
 				558A62102007C8B7000E0707 /* NonStoryboardApp */,
+				557A7A1C212416A800CE1CD9 /* NonStoryboardAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		557A7A1B212416A800CE1CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		558A620F2007C8B7000E0707 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +191,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		557A7A19212416A800CE1CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557A7A20212416A800CE1CD9 /* NonStoryboardAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		558A620D2007C8B7000E0707 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +209,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		557A7A23212416A800CE1CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 558A62102007C8B7000E0707 /* NonStoryboardApp */;
+			targetProxy = 557A7A22212416A800CE1CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		558A621D2007C8B7000E0707 /* LaunchScreen.storyboard */ = {
@@ -151,6 +230,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		557A7A24212416A800CE1CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX6CY8S73Y;
+				INFOPLIST_FILE = NonStoryboardAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sneedit.NonStoryboardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NonStoryboardApp;
+			};
+			name = Debug;
+		};
+		557A7A25212416A800CE1CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX6CY8S73Y;
+				INFOPLIST_FILE = NonStoryboardAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sneedit.NonStoryboardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NonStoryboardApp;
+			};
+			name = Release;
+		};
 		558A62212007C8B7000E0707 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -289,6 +406,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		557A7A26212416A800CE1CD9 /* Build configuration list for PBXNativeTarget "NonStoryboardAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557A7A24212416A800CE1CD9 /* Debug */,
+				557A7A25212416A800CE1CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		558A620C2007C8B7000E0707 /* Build configuration list for PBXProject "NonStoryboardApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
